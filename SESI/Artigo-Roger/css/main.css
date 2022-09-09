@@ -1,0 +1,25 @@
+html{
+    display: grid;
+    align-items: stretch;
+    justify-content: center;
+}
+tbody{
+    align-items: center;
+    text-align: center;
+}
+#tr1{
+    background-color: rgb(10, 10, 10);
+}
+#hr1{
+    margin-top: 10px;
+    border-width: 3px;
+    border-color: rgb(36, 36, 36);
+    border-radius: 10px;
+}
+#titulo{
+    color: darkred;
+}
+#textarea{
+    width: 285px;
+    resize: none;
+}
