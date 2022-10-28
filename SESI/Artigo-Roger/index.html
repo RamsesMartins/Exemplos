@@ -23,15 +23,31 @@
             </tr>
             <tr>
                 <td>
-                    <h2>Sua mensagem:</h2>
+                    <h2>Mensagem Criptografada:</h2>
                 </td>
                 <td>
-                    <textarea name="" id="textarea" cols="30" rows="5" ></textarea>
+                    <textarea name="" class="textarea" id="txtCripto" cols="30" rows="5"></textarea>
                 </td>
             </tr>
             <tr>
                 <td>
-
+                    <h2>Mensagem Descriptografada:</h2>
+                </td>
+                <td>
+                    <textarea name="" class="textarea" id="txtDescrip" cols="30" rows="10"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2>Chave:</h2>                    
+                </td>
+                <td>
+                    <input type="number" name="" id="chave">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5">
+                    <button onclick="Main()">Converter</button>
                 </td>
             </tr>
         </tbody>

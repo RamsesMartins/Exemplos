@@ -19,7 +19,7 @@ tbody{
 #titulo{
     color: darkred;
 }
-#textarea{
+.textarea{
     width: 285px;
     resize: none;
 }
